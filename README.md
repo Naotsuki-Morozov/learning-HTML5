@@ -13,7 +13,7 @@ Mengapa pendekatan semantik ini wajib dilakukan?
 - **Aksesibilitas (Accessibility / a11y)**: Bayangkan jika seorang user yang memiliki masalah penglihatan (tunanetra) yang sedang mengakses internet dan menggunakan fitur perangkat lunak yaitu *screen reader*(pembaca layar). Screen reader tidak melihat desain yang Kita buat; ia hanya membaca struktur HTML. Jika Kita membuat membuat sebuah elemen yang berfungsi sebagai tombol navigasi tetapi menggunakan tag HTML `<div>`, Screen reader tidak akan tahu bahwa itu bisa diklik. Situs akan menjadi cacat secara aksesibilitas.
 - **SEO (Search Engine Optimization)**: Sistem Searching seperti Google mengerahkan robot yang buta warna dan tidak peduli dengan seberapa indah design sistus. Mereka membaca struktur HTML untuk memahami hierarki informasi (yang mana judul utama, mana artikel, mana bagian bawah situs). Struktur HTML yang buruk memastikan situs Anda akan tenggelam di halaman terakhir hasil pencarian.
 
-- [x] Introduction to HTML
+- [x] Introduction
 
 ## Penjelasan Istilah Dalam HTML
 
@@ -76,6 +76,45 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
   > Jika nilai X &lt; Y maka...
 
 </details>
+
+### HTML Comments
+
+<details>
+  <summary>Penjelasan Lengkap...</summary>
+
+  Comments adalah catatan atau penjelasan yang Kita tulis di dalam kode untuk diri sendiri atau programmer lain. Segala sesuatu yang berada di dalam pembungkus komentar tidak akan diproses oleh peramban dan tidak akan muncul di layar pengguna.
+
+  Sintaksis penulisan komentar di HTML adalah: `<!-- Isi komentar di sini -->`
+
+  ![case-insensitive](./picture/case-insensitive.svg)
+
+  **Standar Industri**:
+  Gunakan komentar untuk menjelaskan "mengapa" kode itu ditulis seperti itu (alasan logisnya), bukan "apa" yang dilakukan kode itu.
+  - Buruk: `<!-- Ini tag judul --> <h1>Artikel</h1>` (Ini membuang waktu karena tag h1 sudah jelas adalah judul).
+  - Bagus: `<!-- Menggunakan h1 di sini untuk mendongkrak keyword SEO artikel utama -->`
+
+</details>
+
+### Whitespaces (*Ruang Kosong*)
+
+<details>
+  <summary>Penjelasan Lengkap...</summary>
+
+  Whitespace adalah spasi, tab, atau baris baru (enter) yang Kita ketik di dalam teks editor. HTML memiliki perilaku unik yang disebut **Whitespace Collapse**. Web browser akan meringkas atau memotong whitespace yang berlebihan menjadi satu spasi saja.
+
+  Jika Kita menulis seperti ini di dalam kode:
+
+  ![whitespace](./picture/whitespace.svg)
+
+  Web Browser akan mengabaikan jarak tersebut dan tetap menampilkannya di layar sebagai:
+
+  > Halo nama saya Budi.
+
+  **Standar Industri**:
+  Karena web browser mengabaikan spasi berlebih, kita memanfaatkan whitespace (terutama tombol Tab atau Spasi) untuk membuat Indentasi (jarak menjorok ke dalam) agar struktur kode yang bertingkat-tingkat mudah dibaca oleh mata manusia.
+</details>
+
+- [x] Understanding the Terms
 
 ## Progress Belajar
 [![roadmap.sh](https://roadmap.sh/card/wide/6a0b4fabfc9a13bb9bf0b95f?variant=dark)](https://roadmap.sh)
