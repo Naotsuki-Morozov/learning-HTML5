@@ -106,7 +106,7 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 
   Web Browser akan mengabaikan jarak tersebut dan tetap menampilkannya di layar sebagai:
 
-  > Halo nama saya Budi.
+  > Halo nama saya Наоцуки.
 
   **Standar Industri**:
   Karena web browser mengabaikan spasi berlebih, kita memanfaatkan whitespace (terutama tombol Tab atau Spasi) untuk membuat Indentasi (jarak menjorok ke dalam) agar struktur kode yang bertingkat-tingkat mudah dibaca oleh mata manusia.
