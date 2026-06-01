@@ -28,7 +28,6 @@ Pada HTML terdapat beberapa istilah seperti ==TAG dan Attributes, Case Insensiti
   **Attributes (Atribut)** adalah informasi tambahan yang disematkan di dalam *Opening Tag* untuk mengatur perilaku atau memberikan identitas ekstra pada tag tersebut. Atribut selalu ditulis dalam format `nama_atribut="nilai"`.
 
   ![sintaks-tag-attribute](./image/sintaks-tag-attribute.svg)
-  
 </details>
 
 ## Progress Belajar
