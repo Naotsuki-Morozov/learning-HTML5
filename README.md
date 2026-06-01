@@ -65,10 +65,15 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 
   Untuk mengatasi ini, kita menggunakan HTML Entities, yaitu kode khusus yang diawali dengan simbol ampersand (`&`) dan diakhiri dengan titik koma (`;`).
 
-  | Syntax      | Description |
-  | ----------- | ----------- |
-  | Header      | Title       |
-  | Paragraph   | Text        |
+  | Karakter    | Nama Entitas                    | Kode HTML Entity |
+  | ----------- | ------------------------------- | ---------------- |
+  | `<`         | Less Than                       | `&lt;`           |
+  | `>`         | Greater Than                    | `&gt;`           |
+  | `&`         | Ampersand                       | `&amp;`          |
+  | ` `         | TeNon-Breaking Space (Spasi)xt  | `&nbsp;`         |
+
+  Jadi, penulisan yang benar dan aman di industri adalah:
+  > Jika nilai X &lt; Y maka...
 
 </details>
 
