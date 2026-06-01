@@ -15,7 +15,7 @@ Mengapa pendekatan semantik ini wajib dilakukan?
 
 ## Penjelasan Istilah Dalam HTML
 
-Pada HTML terdapat beberapa istilah seperti ==TAG dan Attributes, Case Insensitivity, Entities, Comments, dan Whitespaces.
+Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivity, Entities, Comments, dan Whitespaces.
 
 ### Tags dan Attributes
 <details>
@@ -28,7 +28,15 @@ Pada HTML terdapat beberapa istilah seperti ==TAG dan Attributes, Case Insensiti
   **Attributes (Atribut)** adalah informasi tambahan yang disematkan di dalam *Opening Tag* untuk mengatur perilaku atau memberikan identitas ekstra pada tag tersebut. Atribut selalu ditulis dalam format `nama_atribut="nilai"`.
 
   ![sintaks-tag-attribute](./picture/sintaks-tag-attribute.svg)
+  - `<a>` adalah **tag** untuk membuat tautan (hyperlink). 
+  - `href` adalah **nama atribut** (singkatan dari hypertext reference). 
+  - `[https://google.com](https://google.com)` adalah **nilai atribut** (tujuan tautan). 
 </details>
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 ## Progress Belajar
 [![roadmap.sh](https://roadmap.sh/card/wide/6a0b4fabfc9a13bb9bf0b95f?variant=dark)](https://roadmap.sh)
