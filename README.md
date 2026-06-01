@@ -14,10 +14,13 @@ Mengapa pendekatan semantik ini wajib dilakukan?
 - **SEO (Search Engine Optimization)**: Sistem Searching seperti Google mengerahkan robot yang buta warna dan tidak peduli dengan seberapa indah design situsku. Mereka membaca struktur HTML untuk memahami hierarki informasi (yang mana judul utama, mana artikel, mana bagian bawah situs). Struktur HTML yang buruk memastikan situs Anda akan tenggelam di halaman terakhir hasil pencarian.
 
 ## Penjelasan Istilah Dalam HTML
-<details>
-  <summary>Show all teks</summary>
-  ## Tags dan Attributes
 
+Pada HTML terdapat beberapa istilah seperti ==TAG dan Attributes, Case Insensitivity, Entities, Comments, dan Whitespaces.
+
+### Tags dan Attributes
+<details>
+  <summary>Penjelasan</summary>
+ 
   Dalam HTML, **Tag** adalah instruksi atau perintah kepada peramban mengenai jenis konten apa yang ingin Anda tampilkan. Tag dibungkus oleh tanda kurung siku (==<== dan ==>==). Mayoritas tag berpasangan: ada **Opening Tag** (tag pembuka) dan **Closing Tag** (tag penutup yang ditandai dengan garis miring /). 
 </details>
 
