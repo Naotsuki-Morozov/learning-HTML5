@@ -23,7 +23,12 @@ Pada HTML terdapat beberapa istilah seperti ==TAG dan Attributes, Case Insensiti
  
   Dalam HTML, **Tag** adalah instruksi atau perintah kepada peramban mengenai jenis konten apa yang ingin Anda tampilkan. Tag dibungkus oleh tanda kurung siku (`<` dan `>`). Mayoritas tag berpasangan: ada **Opening Tag** (tag pembuka) dan **Closing Tag** (tag penutup yang ditandai dengan garis miring `/`). 
 
-  ![alt text](./Image/sintaks-tag.svg)
+  ![sintaks-tag](./Image/sintaks-tag.svg)
+
+  **Attributes (Atribut)** adalah informasi tambahan yang disematkan di dalam *Opening Tag* untuk mengatur perilaku atau memberikan identitas ekstra pada tag tersebut. Atribut selalu ditulis dalam format `nama_atribut="nilai"`.
+
+  ![sintaks-tag-attribute](./image/sintaks-tag-attribute.svg)
+  
 </details>
 
 ## Progress Belajar
