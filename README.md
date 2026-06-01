@@ -112,9 +112,25 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
   Karena web browser mengabaikan spasi berlebih, kita memanfaatkan whitespace (terutama tombol Tab atau Spasi) untuk membuat Indentasi (jarak menjorok ke dalam) agar struktur kode yang bertingkat-tingkat mudah dibaca oleh mata manusia.
 </details>
 
+## Basic Tags
+
+HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML tersebut. Terdapat Tag !DOCTYPE, html, head, meta, body.
+
+<details>
+  <summary>Penjelasan Lengkap...</summary>
+</details>
+
 ## Progress Belajar
 
 - [x] Introduction
 - [x] Understanding the Terms
+- [ ] Basic Tags
+- [ ] Grouping Text
+- [ ] Standard Attributes
+- [ ] Lists and Types
+- [ ] Table Tag
+- [ ] Embedding Media
+- [ ] Using Forms
+- [ ] Semantic Markup
 
 [![roadmap.sh](https://roadmap.sh/card/wide/6a0b4fabfc9a13bb9bf0b95f?variant=dark)](https://roadmap.sh)
