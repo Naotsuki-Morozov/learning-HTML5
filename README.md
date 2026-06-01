@@ -21,7 +21,7 @@ Pada HTML terdapat beberapa istilah seperti ==TAG dan Attributes, Case Insensiti
 <details>
   <summary>Penjelasan</summary>
  
-  Dalam HTML, **Tag** adalah instruksi atau perintah kepada peramban mengenai jenis konten apa yang ingin Anda tampilkan. Tag dibungkus oleh tanda kurung siku (==<== dan ==>==). Mayoritas tag berpasangan: ada **Opening Tag** (tag pembuka) dan **Closing Tag** (tag penutup yang ditandai dengan garis miring /). 
+  Dalam HTML, **Tag** adalah instruksi atau perintah kepada peramban mengenai jenis konten apa yang ingin Anda tampilkan. Tag dibungkus oleh tanda kurung siku (`<` dan >). Mayoritas tag berpasangan: ada **Opening Tag** (tag pembuka) dan **Closing Tag** (tag penutup yang ditandai dengan garis miring /). 
 </details>
 
 ## Progress Belajar
