@@ -114,7 +114,7 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 
 ## Progress Belajar
 
-[x] Introduction
-[x] Understanding the Terms
+- [x] Introduction
+- [x] Understanding the Terms
 
 [![roadmap.sh](https://roadmap.sh/card/wide/6a0b4fabfc9a13bb9bf0b95f?variant=dark)](https://roadmap.sh)
