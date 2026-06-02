@@ -120,9 +120,6 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
   <summary>Penjelasan Lengkap...</summary>
 </details>
 
-## Footnote
-[^1]: Bahasa markup adalah sistem kode yang digunakan untuk menstrukturkan, mengatur format, atau memberi anotasi pada sebuah dokumen. Berbeda dengan bahasa pemrograman yang melakukan logika atau perhitungan, bahasa markup hanya berfungsi sebagai "petunjuk" bagi komputer atau browser dalam menampilkan teks, gambar, atau elemen lainnya.
-
 ## Progress Belajar
 
 - [x] Introduction
@@ -137,3 +134,5 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
 - [ ] Semantic Markup
 
 [![roadmap.sh](https://roadmap.sh/card/wide/6a0b4fabfc9a13bb9bf0b95f?variant=dark)](https://roadmap.sh)
+
+[^1]: Bahasa markup adalah sistem kode yang digunakan untuk menstrukturkan, mengatur format, atau memberi anotasi pada sebuah dokumen. Berbeda dengan bahasa pemrograman yang melakukan logika atau perhitungan, bahasa markup hanya berfungsi sebagai "petunjuk" bagi komputer atau browser dalam menampilkan teks, gambar, atau elemen lainnya.
