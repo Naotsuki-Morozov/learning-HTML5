@@ -114,10 +114,21 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 
 ## Basic Tags
 
-HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML tersebut. Terdapat Tag !DOCTYPE, html, head, meta, body.
+HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML tersebut. Terdapat Tag !DOCTYPE, html, head, meta, dan body.
+
+![basic-tag](./picture/basic-tag.svg)
+
+### !DOCTYPE
 
 <details>
   <summary>Penjelasan Lengkap...</summary>
+
+  ![doctype-html](./picture/doctype-html.svg)
+
+  `<!DOCTYPE html>` bukan tag HTML. Ini adalah **Deklarasi** yang bertugas memberi tahu web browser: "*Situs ini ditulis menggunakan standar HTML5 terbaru.*"
+
+  Jika melewatkan baris ini, web browser akan masuk ke mode kuno yang disebut *Quirks Mode*. Web browser akan mencoba menebak-nebak kode situs menggunakan standar tahun 1990-an, yang berakibat pada hancurnya tampilan CSS modern pada situs tersebut. Baris ini wajib berada di baris nomor satu, tanpa pengecualian.
+
 </details>
 
 ## Progress Belajar
