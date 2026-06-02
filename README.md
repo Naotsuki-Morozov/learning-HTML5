@@ -4,7 +4,7 @@ Halo ...
 
 ## HTML (HyperText Markup Language): Struktur dan Semantik
 
-Apa itu HTML? Apakah HTML adalah bahasa pemrograman? Jelas bukan ya! HTML bukanlah bahasa pemrograman; ini adalah bahasa *markup*. Kalau di analogikan HTML adalah fondasi, tiang, dinding beton, dan struktur dasar dari rumah. HTML mendefinisikan secara mutlak "apa" yang ada di dalam bangunan tersebut (misalnya: ini adalah pintu, ini adalah jendela, ini adalah lantai).
+Apa itu HTML? Apakah HTML adalah bahasa pemrograman? Jelas bukan ya! HTML bukanlah bahasa pemrograman; ini adalah bahasa *markup*[^1]. Kalau di analogikan HTML adalah fondasi, tiang, dinding beton, dan struktur dasar dari rumah. HTML mendefinisikan secara mutlak "apa" yang ada di dalam bangunan tersebut (misalnya: ini adalah pintu, ini adalah jendela, ini adalah lantai).
 
 **Konsep Mendalam & Standar Industri**: Aku sebagai pemula, berasumsi bahwa tugas HTML hanya untuk memunculkan teks atau gambar ke layar. Padahal di industri profesional, HTML digunakan untuk memberikan **makna** pada konten. Orang-orang menyebut praktik ini sebagai Semantic HTML.
 
@@ -119,6 +119,9 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
 <details>
   <summary>Penjelasan Lengkap...</summary>
 </details>
+
+## Footnote
+[^1]: Bahasa markup adalah sistem kode yang digunakan untuk menstrukturkan, mengatur format, atau memberi anotasi pada sebuah dokumen. Berbeda dengan bahasa pemrograman yang melakukan logika atau perhitungan, bahasa markup hanya berfungsi sebagai "petunjuk" bagi komputer atau browser dalam menampilkan teks, gambar, atau elemen lainnya.
 
 ## Progress Belajar
 
