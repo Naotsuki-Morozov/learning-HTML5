@@ -131,6 +131,17 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
 
 </details>
 
+### HTML Element
+
+<details>
+  <summary>Penjelasan Lengkap...</summary>
+
+  ![html-element](./picture/html-element.svg)
+
+  Ini adalah akar (*root element*). Semua kode HTML wajib berada di dalam pasangannya (`<html>` dan `</html>`). Atribut `lang="id"` memberi tahu sistem operasi dan mesin pencari bahwa bahasa utama situs ini adalah Bahasa Indonesia. Ini penting agar fitur penerjemah otomatis (seperti Google Translate) tahu kapan harus menawarkan terjemahan kepada pengguna luar negeri.
+
+</details>
+
 ## Progress Belajar
 
 - [x] Introduction
