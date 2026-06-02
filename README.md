@@ -22,7 +22,7 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 <details>
   <summary>Penjelasan Lengkap...</summary>
  
-  Dalam HTML, **Tag** adalah instruksi atau perintah kepada web browser mengenai jenis konten apa yang ingin di tampilkan. Tag dibungkus oleh tanda kurung siku (`<` dan `>`). Mayoritas tag berpasangan: ada **Opening Tag** (tag pembuka) dan **Closing Tag** (tag penutup yang ditandai dengan garis miring `/`). 
+  Dalam HTML, **Tag** adalah instruksi atau perintah kepada web browser mengenai jenis konten apa yang ingin di tampilkan. Tag dibungkus oleh tanda kurung siku (`<` dan `>`). Mayoritas tag berpasangan: ada **Opening Tag** (tag pembuka) dan **Closing Tag** (tag penutup, tag yang ditandai dengan garis miring `/`). 
 
   ![sintaks-tag](./picture/sintaks-tag.svg)
 
@@ -68,10 +68,10 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
   | `<`         | Less Than                       | `&lt;`           |
   | `>`         | Greater Than                    | `&gt;`           |
   | `&`         | Ampersand                       | `&amp;`          |
-  | ` `         | TeNon-Breaking Space (Spasi)xt  | `&nbsp;`         |
+  | ` `         | Non-Breaking Space (Spasi)      | `&nbsp;`         |
 
   Jadi, penulisan yang benar dan aman di industri adalah:
-  > Jika nilai X &lt; Y maka...
+  > Jika nilai X `&lt;` Y maka...
 
 </details>
 
@@ -80,7 +80,7 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 <details>
   <summary>Penjelasan Lengkap...</summary>
 
-  Comments adalah catatan atau penjelasan yang Kita tulis di dalam kode untuk diri sendiri atau programmer lain. Segala sesuatu yang berada di dalam pembungkus komentar tidak akan diproses oleh peramban dan tidak akan muncul di layar pengguna.
+  Comments adalah catatan atau penjelasan yang kita tulis di dalam kode untuk diri sendiri atau programmer lain. Segala sesuatu yang berada di dalam pembungkus komentar tidak akan diproses oleh web browser dan tidak akan muncul di layar pengguna.
 
   Sintaksis penulisan komentar di HTML adalah: `<!-- Isi komentar di sini -->`
 
@@ -98,7 +98,7 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 <details>
   <summary>Penjelasan Lengkap...</summary>
 
-  Whitespace adalah spasi, tab, atau baris baru (enter) yang Kita ketik di dalam teks editor. HTML memiliki perilaku unik yang disebut **Whitespace Collapse**. Web browser akan meringkas atau memotong whitespace yang berlebihan menjadi satu spasi saja.
+  Whitespace adalah spasi, tab, atau baris baru (enter) yang kita ketik di dalam teks editor. HTML memiliki perilaku unik yang disebut **Whitespace Collapse**. Web browser akan meringkas atau memotong whitespace yang berlebihan menjadi satu spasi saja.
 
   Jika Kita menulis seperti ini di dalam kode:
 
