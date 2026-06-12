@@ -22,7 +22,7 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 <details>
   <summary>Penjelasan Lengkap...</summary>
  
-  Dalam HTML, **Tag** adalah instruksi atau perintah kepada web browser mengenai jenis konten apa yang ingin di tampilkan. Tag dibungkus oleh tanda kurung siku (`<` dan `>`). Mayoritas tag berpasangan: ada **Opening Tag** (tag pembuka) dan **Closing Tag** (tag penutup, tag yang ditandai dengan garis miring `/`). 
+  Dalam HTML, **Tag** adalah instruksi atau perintah kepada browser mengenai jenis konten apa yang ingin di tampilkan. Tag dibungkus oleh tanda kurung siku (`<` dan `>`). Mayoritas tag berpasangan: ada **Opening Tag** (tag pembuka) dan **Closing Tag** (tag penutup, tag yang ditandai dengan garis miring `/`). 
 
   ![sintaks-tag](./picture/sintaks-tag.svg)
 
@@ -40,12 +40,12 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 <details>
   <summary>Penjelasan Lengkap...</summary>
 
-  Bahasa HTML bersifat case-insensitive, Artinya, web browser tidak peduli apakah Kita menulis kode dengan huruf besar atau huruf kecil.
+  Bahasa HTML bersifat case-insensitive, Artinya, browser tidak peduli apakah Kita menulis kode dengan huruf besar atau huruf kecil.
 
   ![case-insensitive](./picture/case-insensitive.svg)
 
   **Standar Industri**:
-  Meskipun web browser memaafkan penggunaan huruf besar, standar industri yang bersih dan profesional mewajibkan Kita menulis semua tag dan atribut menggunakan huruf kecil (lowercase). Menulis dengan huruf besar dianggap tidak rapi, kuno, dan mempersulit proses pembacaan kode saat bekerja dalam tim besar.
+  Meskipun browser memaafkan penggunaan huruf besar, standar industri yang bersih dan profesional mewajibkan Kita menulis semua tag dan atribut menggunakan huruf kecil (lowercase). Menulis dengan huruf besar dianggap tidak rapi, kuno, dan mempersulit proses pembacaan kode saat bekerja dalam tim besar.
 
 </details>
 
@@ -54,12 +54,12 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 <details>
   <summary>Penjelasan Lengkap...</summary>
 
-  Ada beberapa karakter khusus yang tidak bisa di ketik langsung di dalam HTML karena karakter tersebut sudah dipesan oleh sistem web browser itu sendiri. Karakter yang paling sensitif adalah tanda kurang dari (`<`) dan lebih dari (`>`).
+  Ada beberapa karakter khusus yang tidak bisa di ketik langsung di dalam HTML karena karakter tersebut sudah dipesan oleh sistem browser itu sendiri. Karakter yang paling sensitif adalah tanda kurang dari (`<`) dan lebih dari (`>`).
 
   Jika Kita menulis teks seperti ini di HTML:
   > Jika nilai X < Y maka...
 
-  Web browser akan bingung dan mengira `<` Y adalah awal dari sebuah tag HTML baru yang rusak.
+  Browser akan bingung dan mengira `<` Y adalah awal dari sebuah tag HTML baru yang rusak.
 
   Untuk mengatasi ini, kita menggunakan HTML Entities, yaitu kode khusus yang diawali dengan simbol ampersand (`&`) dan diakhiri dengan titik koma (`;`).
 
@@ -80,7 +80,7 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 <details>
   <summary>Penjelasan Lengkap...</summary>
 
-  Comments adalah catatan atau penjelasan yang kita tulis di dalam kode untuk diri sendiri atau programmer lain. Segala sesuatu yang berada di dalam pembungkus komentar tidak akan diproses oleh web browser dan tidak akan muncul di layar pengguna.
+  Comments adalah catatan atau penjelasan yang kita tulis di dalam kode untuk diri sendiri atau programmer lain. Segala sesuatu yang berada di dalam pembungkus komentar tidak akan diproses oleh browser dan tidak akan muncul di layar pengguna.
 
   Sintaksis penulisan komentar di HTML adalah: `<!-- Isi komentar di sini -->`
 
@@ -98,18 +98,18 @@ Pada HTML terdapat beberapa istilah seperti TAG dan Attributes, Case Insensitivi
 <details>
   <summary>Penjelasan Lengkap...</summary>
 
-  Whitespace adalah spasi, tab, atau baris baru (enter) yang kita ketik di dalam teks editor. HTML memiliki perilaku unik yang disebut **Whitespace Collapse**. Web browser akan meringkas atau memotong whitespace yang berlebihan menjadi satu spasi saja.
+  Whitespace adalah spasi, tab, atau baris baru (enter) yang kita ketik di dalam teks editor. HTML memiliki perilaku unik yang disebut **Whitespace Collapse**. Browser akan meringkas atau memotong whitespace yang berlebihan menjadi satu spasi saja.
 
   Jika Kita menulis seperti ini di dalam kode:
 
   ![whitespace](./picture/whitespace.svg)
 
-  Web Browser akan mengabaikan jarak tersebut dan tetap menampilkannya di layar sebagai:
+  Browser akan mengabaikan jarak tersebut dan tetap menampilkannya di layar sebagai:
 
   > Halo nama saya Наоцуки.
 
   **Standar Industri**:
-  Karena web browser mengabaikan spasi berlebih, kita memanfaatkan whitespace (terutama tombol Tab atau Spasi) untuk membuat Indentasi (jarak menjorok ke dalam) agar struktur kode yang bertingkat-tingkat mudah dibaca oleh mata manusia.
+  Karena browser mengabaikan spasi berlebih, kita memanfaatkan whitespace (terutama tombol Tab atau Spasi) untuk membuat Indentasi (jarak menjorok ke dalam) agar struktur kode yang bertingkat-tingkat mudah dibaca oleh mata manusia.
 </details>
 
 ## Basic Tags
@@ -125,9 +125,9 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
 
   ![doctype-html](./picture/doctype-html.svg)
 
-  `<!DOCTYPE html>` bukan tag HTML. Ini adalah **Deklarasi** yang bertugas memberi tahu web browser: "*Situs ini ditulis menggunakan standar HTML5 terbaru.*"
+  `<!DOCTYPE html>` bukan tag HTML. Ini adalah **Deklarasi** yang bertugas memberi tahu browser: "*Situs ini ditulis menggunakan standar HTML5 terbaru.*"
 
-  Jika melewatkan baris ini, web browser akan masuk ke mode kuno yang disebut *Quirks Mode*. Web browser akan mencoba menebak-nebak kode situs menggunakan standar tahun 1990-an, yang berakibat pada hancurnya tampilan CSS modern pada situs tersebut. Baris ini wajib berada di baris nomor satu, tanpa pengecualian.
+  Jika melewatkan baris ini, browser akan masuk ke mode kuno yang disebut *Quirks Mode*. Browser akan mencoba menebak-nebak kode situs menggunakan standar tahun 1990-an, yang berakibat pada hancurnya tampilan CSS modern pada situs tersebut. Baris ini wajib berada di baris nomor satu, tanpa pengecualian.
 
 </details>
 
@@ -149,12 +149,12 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
 
   ![head-tag](./picture/head-tag.svg)
 
-  Tag `<head>` berisi informasi-informasi di balik layar yang **tidak akan muncul di web browser**. Ini adalah area konfigurasi, pengaturan SEO, pemanggilan berkas CSS, dan instruksi untuk mesin pencari.
+  Tag `<head>` berisi informasi-informasi di balik layar yang **tidak akan muncul di browser**. Ini adalah area konfigurasi, pengaturan SEO, pemanggilan berkas CSS, dan instruksi untuk mesin pencari.
 
   Di dalam `<head>`, wajib ada dua Meta Tags krusial ini:
-  - `<meta charset="UTF-8">`: Mengatur sistem pengodean karakter. UTF-8 memastikan web browser bisa menampilkan semua karakter huruf, simbol, hingga emoji dari berbagai bahasa di dunia dengan benar tanpa mengalami eror teks rusak (*mojibake*).
+  - `<meta charset="UTF-8">`: Mengatur sistem pengodean karakter. UTF-8 memastikan browser bisa menampilkan semua karakter huruf, simbol, hingga emoji dari berbagai bahasa di dunia dengan benar tanpa mengalami eror teks rusak (*mojibake*).
   - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Ini adalah code wajib untuk Responsive Web Design. Tanpa baris ini, situs web akan terlihat sangat kecil dan tidak bisa menyesuaikan ukuran layar saat dibuka di smartphone.
-  - `<title>`: Menentukan teks yang muncul di tab web browser.
+  - `<title>`: Menentukan teks yang muncul di tab browser.
 </details>
 
 ### Tag Body
@@ -163,6 +163,23 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
   <summary>Penjelasan Lengkap...</summary>
 
   Ini adalah area utama. Semua tag yang ditulis di dalam pasangannya (`<body>` dan `</body>`) seperti gambar, teks, tombol, dan video, adalah komponen yang **akan terlihat secara visual oleh pengguna di layar komputer mereka**.
+</details>
+
+## Textual Tag
+
+Tag tekstual dalam HTML digunakan untuk menyusun dan memformat konten teks pada sebuah halaman web. Tag ini menentukan bagaimana teks harus muncul, apakah sebagai paragraf, judul, kata yang ditekankan, atau bagian kutipan. Tag-tag ini memberikan makna semantik pada teks, membantu browser dan mesin pencari memahami organisasi dan tujuan dari konten tersebut.
+
+### Headings
+
+HTML menyediakan enam tingkatan judul, mulai dari `<h1>` (tertinggi/paling penting) hingga `<h6>` (terendah).
+
+<details>
+  <summary>Penjelasan Lengkap...</summary>
+
+  ![heading-tag](./picture/heading-tag.svg)
+
+  **Standard Industri & Mengapa**:
+  Secara visual kuno, `<hr>` menampilkan garis abu-abu horizontal di layar. Namun secara semantik modern (HTML5), `<hr>` bukan sekadar alat pembuat garis, melainkan sebuah **Thematic Break** penanda pergantian topik atau transisi cerita yang drastis dalam satu halaman. Di industri, garis visualnya sering kali dihilangkan atau diubah desainnya menggunakan CSS, namun makna pemisah topiknya tetap dipertahankan di HTML.
 </details>
 
 ## Progress Belajar
