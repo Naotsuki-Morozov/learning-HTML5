@@ -142,11 +142,34 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
 
 </details>
 
+### Tag Head
+
+<details>
+  <summary>Penjelasan Lengkap...</summary>
+
+  ![head-tag](../HTML5/picture/head-tag.svg)
+
+  Tag `<head>` berisi informasi-informasi di balik layar yang **tidak akan muncul di web browser**. Ini adalah area konfigurasi, pengaturan SEO, pemanggilan berkas CSS, dan instruksi untuk mesin pencari.
+
+  Di dalam `<head>`, wajib ada dua Meta Tags krusial ini:
+  - `<meta charset="UTF-8">`: Mengatur sistem pengodean karakter. UTF-8 memastikan web browser bisa menampilkan semua karakter huruf, simbol, hingga emoji dari berbagai bahasa di dunia dengan benar tanpa mengalami eror teks rusak (*mojibake*).
+  - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Ini adalah code wajib untuk Responsive Web Design. Tanpa baris ini, situs web akan terlihat sangat kecil dan tidak bisa menyesuaikan ukuran layar saat dibuka di smartphone.
+  - `<title>`: Menentukan teks yang muncul di tab web browser.
+</details>
+
+### Tag Body
+
+<details>
+  <summary>Penjelasan Lengkap...</summary>
+
+  Ini adalah area utama. Semua tag yang ditulis di dalam pasangannya (`<body>` dan `</body>`) seperti gambar, teks, tombol, dan video, adalah komponen yang **akan terlihat secara visual oleh pengguna di layar komputer mereka**.
+</details>
+
 ## Progress Belajar
 
 - [x] Introduction
 - [x] Understanding the Terms
-- [ ] Basic Tags
+- [x] Basic Tags
 - [ ] Grouping Text
 - [ ] Standard Attributes
 - [ ] Lists and Types
