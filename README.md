@@ -147,7 +147,7 @@ HTML disusun menggunakan tag-tag dasar yang menentukan isi dan struktur HTML ter
 <details>
   <summary>Penjelasan Lengkap...</summary>
 
-  ![head-tag](./HTML5/picture/head-tag.svg)
+  ![head-tag](./picture/head-tag.svg)
 
   Tag `<head>` berisi informasi-informasi di balik layar yang **tidak akan muncul di web browser**. Ini adalah area konfigurasi, pengaturan SEO, pemanggilan berkas CSS, dan instruksi untuk mesin pencari.
 
